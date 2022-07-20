@@ -1,0 +1,17 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "Todos los retos de codigo de la pagina web de AdventJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node RetoUnoMoureDev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "retos",
+    "adventjs"
+  ],
+  "type": "module",
+  "author": "Carlos Zelaya",
+  "license": "ISC"
+}
