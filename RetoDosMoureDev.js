@@ -51,7 +51,7 @@ function Buy(money, id) {
 }
 
     //Ingrese su pedido aquí
-console.log(Buy([50], 5));
+console.log(Buy([200], 4));
 
 
 /** 
