@@ -71,5 +71,27 @@ const datos = [new Date(), 12000.43]
   
   for(const valor of generador) {
     // Esto directamente imprimirá el valor, no el objeto con valur y done
-    console.log(valor)
+    // console.log(valor)
   }
+
+  // Destructuring
+
+const heros = ['batman', 'superman', 'wonderwoman', 'shazam', 'aquaman']
+
+const [batman] = heros;
+console.log(batman);
+
+  //ciclos de repetición
+// const objeto = { a: 1, b: 5, c: 10}
+// for (const clave in objeto){
+//   console.log(clave, objeto[clave])
+// }
+
+// const iterable = [ 1, 5, 10]
+// for (const valor of iterable){
+//    console.log(valor)
+// }
+
+// iterable.forEach((x) => {
+//   console.log(x);
+// })
