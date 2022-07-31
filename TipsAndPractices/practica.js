@@ -27,14 +27,21 @@ let arrayResults = []
         //     return arrayResults.push(result);
         // })
 
-        for (let i = 0; i < inputArray.length - 1; i++) {
-            let result = inputArray[i] * inputArray[i+1];
-            arrayResults.push(result);
-        }
+    //     for (let i = 0; i < inputArray.length - 1; i++) {
+    //         let result = inputArray[i] * inputArray[i+1];
+    //         arrayResults.push(result);
+    //     }
 
         
-        console.log(arrayResults);
-    const mayor = Math.max(...arrayResults);
-    console.log(mayor);   
+    //     console.log(arrayResults);
+    // const mayor = Math.max(...arrayResults);
+    // console.log(mayor);   
+    let h = 0;
+
+    for (let i = 2; i <= 8; i++){
+        h++;
+    }
+
+    console.log(h);
 
     
